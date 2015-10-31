@@ -1,0 +1,12 @@
+[
+  { "repository": "android_kernel_xiaomi_armani",
+    "target_path": "kernel/xiaomi/armani"
+  }
+  { "repository": "proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi"
+  }
+  {
+    "repository": "android_hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm"
+  }
+]
