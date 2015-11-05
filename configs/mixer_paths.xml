@@ -784,7 +784,7 @@
         <ctl name="RX4 MIX1 INP1" value="RX1" />
         <ctl name="SPK DAC Switch" value="1" />
         <ctl name="COMP0 Switch" value="1" />
-        <ctl name="RX4 Digital Volume" value="84" />
+        <ctl name="RX4 Digital Volume" value="86" />
     </path>
 
     <path name="speaker-lite">
@@ -931,8 +931,8 @@
         <ctl name="SPK DAC Switch" value="1" />
         <ctl name="COMP0 Switch" value="1" />
         <ctl name="SPK DRV Volume" value="8" />
-        <ctl name="RX1 Digital Volume" value="86" />
-        <ctl name="RX4 Digital Volume" value="85" />
+        <ctl name="RX1 Digital Volume" value="99" />
+        <ctl name="RX4 Digital Volume" value="99" />
     </path>
 
     <path name="voice-speaker-mic">
