@@ -157,3 +157,7 @@ TARGET_USES_QCOM_WCNSS_QMI := true
 
 # inherit from the proprietary version
 -include vendor/xiaomi/armani/BoardConfigVendor.mk
+
+# inherit from hardware/qcom
+include hardware/qcom/msm8x26/BoardConfigCommon.mk
+
