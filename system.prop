@@ -5,12 +5,21 @@ ro.qc.sdk.audio.fluencetype=fluence
 persist.audio.fluence.voicecall=true
 persist.audio.fluence.voicerec=true
 persist.audio.fluence.speaker=false
+<<<<<<< HEAD
 audio.offload.buffer.size.kb=32
 audio.offload.gapless.enabled=true
 audio.offload.pcm.16bit.enable=false
 audio.offload.pcm.24bit.enable=false
 audio.offload.disable=1
 audio.offload.video=false
+=======
+audio.offload.24bit.enable=false
+audio.offload.buffer.size.kb=32
+audio.offload.gapless.enabled=true
+audio.offload.multiple.enabled=false
+audio.offload.video=false
+av.streaming.offload.enable=false
+>>>>>>> df6ea8325b63cb42df87d8f3ee3f43bbf0998d68
 use.voice.path.for.pcm.voip=true
 
 # Display
@@ -45,6 +54,7 @@ persist.radio.msgtunnel.start=false
 persist.radio.multisim.config=dsds
 persist.radio.rat_on=combine
 ro.telephony.call_ring.multiple=false
+ro.telephony.ril.config=simactivation
 
 # OTA
 cm.updater.uri=http://ota.randomdroids.com/api
