@@ -28,7 +28,6 @@ TARGET_CPU_VARIANT := krait
 # Audio
 BOARD_USES_ALSA_AUDIO := true
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
-BOARD_USES_AUDIO_LEGACY := true
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/xiaomi/armani/bluetooth
@@ -158,6 +157,4 @@ TARGET_USES_QCOM_WCNSS_QMI := true
 # inherit from the proprietary version
 -include vendor/xiaomi/armani/BoardConfigVendor.mk
 
-# inherit from hardware/qcom
-include hardware/qcom/msm8x26/BoardConfigCommon.mk
 
